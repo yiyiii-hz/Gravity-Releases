@@ -1,9 +1,9 @@
-Gravity 1.0.5
+Gravity 1.0.6
 
 文件：
-  Gravity-1.0.5-macOS-arm64.zip          macOS 12+ / Apple Silicon
-  Gravity-1.0.5-Windows-x64-Setup.exe    Windows 10/11 x64 安装包
-  Gravity-1.0.5-Windows-x64-Portable.zip Windows 10/11 x64 免安装版
+  Gravity-1.0.6-macOS-arm64.zip          macOS 12+ / Apple Silicon
+  Gravity-1.0.6-Windows-x64-Setup.exe    Windows 10/11 x64 安装包
+  Gravity-1.0.6-Windows-x64-Portable.zip Windows 10/11 x64 免安装版
   SHA256SUMS.txt                          校验和
 
 macOS：
@@ -18,10 +18,10 @@ Windows：
   4. 检测网络出口并应用定位。
 
 本版新增：
-  - Claude 网络检测走当前代理/路由器路径，适配软路由与本机代理。
-  - Claude 出口 IP、地区与 IP 信誉单独展示，不再混入系统 DNS/UDP 结论。
-  - 系统时区、DNS、实时通信与客户端指纹拆到“系统环境”。
-  - 版本号更新为 1.0.5。
+  - 新增代理控制器只读接入，自动读取 TUN、DNS、IPv6 与 Claude 分流状态。
+  - 自动识别 Claude 组、当前第二跳、MATCH 与 UDP 策略，减少人工确认。
+  - 设置页可填写控制器地址与密钥。
+  - 版本号更新为 1.0.6。
 
 说明：
   - 定位是城市级估算，不保证每个应用看到的位置完全一致。
