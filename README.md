@@ -1,6 +1,6 @@
 # Gravity Downloads
 
-Latest: 1.0.6
+Latest: 1.0.7
 
 Public download page and signed update manifest for Gravity.
 

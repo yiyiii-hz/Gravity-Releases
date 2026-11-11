@@ -1,3 +1,3 @@
-5e4ffecff06e2e6055fd734b942f1b50ad9bbe7e2046aaa0400cf95f07ba357b  Gravity-1.0.6-macOS-arm64.zip
-81f0bf5cb0aeee9974725601ae34305e19aa6a78536be7a0254432555c9103ce  Gravity-1.0.6-Windows-x64-Setup.exe
-c3bb9b901d101b7ec9f1532c25a0f5476d01d61a4a031484eab41f31981ddc9a  Gravity-1.0.6-Windows-x64-Portable.zip
+886b92f3fde501573b5021f6744e5602f8cd753961ed9fffc10bc872309be2c1  Gravity-1.0.7-macOS-arm64.zip
+0af30edc72ae6003cd49d4b9cb0e79943e23da9ea8b814f1270839010d651fb1  Gravity-1.0.7-Windows-x64-Setup.exe
+23f76be5a8af6062c90cd0a8e99fa8c5bc1483b5305020e24cf87fa139ca2706  Gravity-1.0.7-Windows-x64-Portable.zip
