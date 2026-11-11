@@ -1,9 +1,9 @@
-Gravity 1.0.3
+Gravity 1.0.4
 
 文件：
-  Gravity-1.0.3-macOS-arm64.zip          macOS 12+ / Apple Silicon
-  Gravity-1.0.3-Windows-x64-Setup.exe    Windows 10/11 x64 安装包
-  Gravity-1.0.3-Windows-x64-Portable.zip Windows 10/11 x64 免安装版
+  Gravity-1.0.4-macOS-arm64.zip          macOS 12+ / Apple Silicon
+  Gravity-1.0.4-Windows-x64-Setup.exe    Windows 10/11 x64 安装包
+  Gravity-1.0.4-Windows-x64-Portable.zip Windows 10/11 x64 免安装版
   SHA256SUMS.txt                          校验和
 
 macOS：
@@ -18,10 +18,9 @@ Windows：
   4. 检测网络出口并应用定位。
 
 本版新增：
-  - 应用内更新：自动检查、后台下载、签名清单与 SHA256 校验，确认后重启安装。
-  - 导出完整诊断日志。
-  - 修复 Windows 守护状态误判。
-  - 设置页更新卡片改为整行布局。
+  - 修复 DNS 泄露检测：直接使用真实探测结果，检查全部解析器，避免误判为通过。
+  - 网络环境自查不再需要打开网页。
+  - 版本号更新为 1.0.4。
 
 说明：
   - 定位是城市级估算，不保证每个应用看到的位置完全一致。
