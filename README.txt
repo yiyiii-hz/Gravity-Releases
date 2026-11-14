@@ -1,15 +1,20 @@
-Gravity 1.1.0
+Gravity 1.2.0
 
 文件：
-  Gravity-1.1.0-macOS-arm64.zip          macOS 12+ / Apple Silicon
-  Gravity-1.1.0-Windows-x64-Setup.exe    Windows 10/11 x64 安装包
-  Gravity-1.1.0-Windows-x64-Portable.zip Windows 10/11 x64 免安装版
+  Gravity-1.2.0-macOS-arm64.zip          macOS 12+ / Apple Silicon
+  Gravity-1.2.0-Windows-x64-Setup.exe    Windows 10/11 x64 安装包
+  Gravity-1.2.0-Windows-x64-Portable.zip Windows 10/11 x64 免安装版
   SHA256SUMS.txt                          校验和
 
 macOS：
   1. 解压，把 Gravity.app 拖进「应用程序」。
   2. 首次打开若被拦截：右键 → 打开 → 打开。
   3. 打开后复制机器码，向作者获取激活码。
+
+本版新增：
+  - 检测项：出口地区、旧代理配置冲突、使用时段与出口时区。
+  - 系统时区对齐：按出口城市设置，可恢复；自动时区保持跟随定位。
+  - 清理页：旧配置先审计，清理只备份后移走，可恢复。
 
 说明：
   - 未做 Apple 公证与 Windows 代码签名，首次运行可能出现系统警告。
