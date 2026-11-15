@@ -1,9 +1,9 @@
-Gravity 1.2.0
+Gravity 1.2.1
 
 文件：
-  Gravity-1.2.0-macOS-arm64.zip          macOS 12+ / Apple Silicon
-  Gravity-1.2.0-Windows-x64-Setup.exe    Windows 10/11 x64 安装包
-  Gravity-1.2.0-Windows-x64-Portable.zip Windows 10/11 x64 免安装版
+  Gravity-1.2.1-macOS-arm64.zip          macOS 12+ / Apple Silicon
+  Gravity-1.2.1-Windows-x64-Setup.exe    Windows 10/11 x64 安装包
+  Gravity-1.2.1-Windows-x64-Portable.zip Windows 10/11 x64 免安装版
   SHA256SUMS.txt                          校验和
 
 macOS：
