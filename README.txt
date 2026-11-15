@@ -1,9 +1,9 @@
-Gravity 1.2.1
+Gravity 1.2.2
 
 文件：
-  Gravity-1.2.1-macOS-arm64.zip          macOS 12+ / Apple Silicon
-  Gravity-1.2.1-Windows-x64-Setup.exe    Windows 10/11 x64 安装包
-  Gravity-1.2.1-Windows-x64-Portable.zip Windows 10/11 x64 免安装版
+  Gravity-1.2.2-macOS-arm64.zip          macOS 12+ / Apple Silicon
+  Gravity-1.2.2-Windows-x64-Setup.exe    Windows 10/11 x64 安装包
+  Gravity-1.2.2-Windows-x64-Portable.zip Windows 10/11 x64 免安装版
   SHA256SUMS.txt                          校验和
 
 macOS：
@@ -12,11 +12,11 @@ macOS：
   3. 打开后复制机器码，向作者获取激活码。
 
 本版新增：
-  - 检测项：出口地区、旧代理配置冲突、使用时段与出口时区。
-  - 系统时区对齐：按出口城市设置，可恢复；自动时区保持跟随定位。
-  - 清理页：旧配置先审计，清理只备份后移走，可恢复。
+  - 时钟回拨检测：系统时间被调回超过 24 小时时，暂停写入类功能并提示校正系统时间；恢复定位、卸载、导出诊断不受影响。
+  - 正式版不再接受 GRAVITY_MACHINE_ID 覆盖机器码。
 
 说明：
+  - 第一跳和第二跳都由客户自行购买，Gravity 只生成配置模板；不承诺防封、不承诺通过风控。
   - 未做 Apple 公证与 Windows 代码签名，首次运行可能出现系统警告。
   - 激活码绑定机器码，重装系统或换主板后机器码会变化。
   - 定位为城市级估算，不保证每个应用读取同一来源。
